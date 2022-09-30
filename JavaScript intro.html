@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to JS Tutorial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid red;
+            margin: 3px 0px;
+            background: cyan;
+            padding: 9px; 
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to this JavaScript Tutorial</h1>
+    <!-- Id is in only 1 element but class can be in more than 1 element. -->
+    <div id="firstContainer" class="container">
+        <button id="click" onclick="clicked()">Click Me</button>
+        <p>This is the best paragraph  </p> 
+    </div>
+    <div class="container">
+        <p>This is a paragraph</p>
+    </div>
+    <script src="index.js">
+        // // 1. Ways to print in JS
+        // console.log("Hello World") // to print in console use console.log
+        // alert("me"); // to alert or the page says use alert
+        // document.write("This is document write")
+        // // 2. JavaScript Console API
+        // console.log("Hello World", 4+6, "Another log")
+        // console.warn("This is warning") // It is warning in yellow bg retuned by function
+        // console.error("This is error")
+    </script> 
+</body>
+</html>
